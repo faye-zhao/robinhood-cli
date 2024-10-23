@@ -1,11 +1,13 @@
-node mfa.js // get mfa code. get token. add to credentials.js
-node orders.js      // get orders
-//node instruments.js // get instrument url of a symbol
-node quote.js       symbol=[djt]
-node buy.js         symbol=djt price=30 quantity=2
-node sell.js        symbol=djt price=30 quantity=1
-node buy.js         symbol=lyft  quantity=10  // price is optional
-node sell.js        symbol=lyft  quantity=10 // price is optional
-node sellAll.js     symbol=djt
-node positions.js    // get positions
+A Robinhood CLI that integrate Robinhood API in https://www.npmjs.com/package/robinhood
+### Usage
+node mfa.js             // Get mfa code. get token. add to credentials.js
+node orders.js          // Get orders
+//node instruments.js   // Get instrument url of a symbol
+node quote.js       symbol=[xxx]
+node buy.js         symbol=[xxx] price=xxx quantity=xxx
+node sell.js        symbol=[xxx] price=xxx quantity=xxx
+node buy.js         symbol=[xxx]  quantity=[xxx]  // price is optional
+node sell.js        symbol=[xxx]  quantity=[xxx] // price is optional
+node sellAll.js     symbol=[xxx]
+node positions.js       // Get positions
 
